@@ -9,10 +9,16 @@ body{
   background-color: white;
 }
 
-nav{
-  display: flex;
-  justify-content: space-evenly;
+.navigation{
+  overflow: hidden;
 }
+
+.topnav-right {
+  display: flex;
+  float: right;
+  gap:10vmin;
+}
+
 
 
 

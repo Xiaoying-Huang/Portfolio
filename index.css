@@ -22,7 +22,7 @@ section{
   padding: 1vw;
   background-color:  #f7f7f7;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   top: 0;
 }
 
@@ -45,8 +45,19 @@ section{
 
 #homepic{
   float: right;
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 30%;
+  animation: rotation 8s infinite linear;
+  border-radius: 60%;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 
 #welcome{

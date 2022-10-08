@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/20194a5b06.js" crossorigin="anonymous"></script>
   <title>Xiaoying Huang</title>
 </head>
 <body>
@@ -18,10 +19,12 @@
         <a href='#home'>Home</a>
         <a href='#work'>Work</a>
         <a href='#about'>About</a>
-        <a href='#contact'>Contact</a>
       </div>
     </nav>
   </header>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
   <section class='home'>
     <div class='title'>
       <div id='title-text'>
@@ -32,6 +35,9 @@
     </div>
     <br/><br/>
     <p id='scroll'>Scroll down to check out my works.</p>
+    <p id='scroll-arrow'><i class="fa-solid fa-chevron-down"></i></p>
+    <p id='scroll-arrow'><i class="fa-solid fa-chevron-down"></i></p>
+    <p id='scroll-arrow'><i class="fa-solid fa-chevron-down"></i></p>
   </section>
 
   <section id='work'>
@@ -49,35 +55,6 @@
     <a>Github</a>
   </section>
   
-  <section id='contact'>
-    <h3>Send me a message</h3>
-    <form action="" class="section-form">
-      <label for="first-name">
-        First Name
-      </label>
-      <br>
-      <input type="text"  name='first-name' id='first-name'>
-      <br>
-      <label for="surname">
-        Surname
-      </label>
-      <br>
-      <input type="text" name="surname" id='surname'>
-      <br>
-      <label for="Email">
-        Email
-      </label>
-      <br>
-      <input type="email" name="Email" id="Email">
-      <br>
-      <label for="Message">
-        Message
-      </label>
-      <br>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
-      <br>
-      <input type="button" value="Send me a message" id='submit-button'>
-    </form>
-</section>
+<script src='./index.js'></script>
 </body>
 </html>

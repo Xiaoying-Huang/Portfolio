@@ -1,3 +1,4 @@
+/* Universal setting */
 *{
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +16,12 @@ section{
   width: 100%;
   margin-top: 10vh;
 }
+
+h3{
+  font-size: 2vw;
+}
+
+/* Home page section setting */
 
 .navigation{
   overflow: hidden;
@@ -100,6 +107,17 @@ section{
 
 #myBtn:hover {
   background-color: rgb(43, 183, 219); /* Add a dark-grey background on hover */
+}
+
+/* Portfolio section setting */
+
+
+/* About section setting */
+
+/* Footer setting */
+
+footer{
+  text-align: center;
 }
 
 .diamond{

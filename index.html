@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
   <script src="https://kit.fontawesome.com/20194a5b06.js" crossorigin="anonymous"></script>
   <title>Xiaoying Huang</title>
 </head>
+
 <body>
   <!-- Header-navigation bar-->
   <header>
@@ -33,9 +35,9 @@
         <h2 id='welcome'>Welcome!</h2>
         <p id='welcome-message'> I'm Xiaoying Huang, a front-end developer based in Hertfordshire, UK.</p>
       </div>
-      <img id="homepic" src='./img/homepic.jpg'/>
+      <img id="homepic" src='./img/homepic.jpg' />
     </div>
-    <br/><br/>
+    <br /><br />
     <p id='scroll'>Scroll down to check out my works.</p>
     <p id='scroll-arrow'><i class="fa-solid fa-chevron-down"></i></p>
     <p id='scroll-arrow'><i class="fa-solid fa-chevron-down"></i></p>
@@ -45,24 +47,45 @@
   <!-- Portfolio section -->
   <section id='portfolio'>
     <h3>Portfolio</h3>
-    <img src='./img/Rock Scissors Paper Title.gif'>
-    <h4 id='project-title'>Rock Scissors Paper</h4>
-    <p id='project-description'>A childhood game written in Javascript.</p>
+    <div class='projects-container'>
+      <div class='portfolio_projects'>
+        <img src='./img/Rock Scissors Paper Title.gif'>
+        <h4 class='project-title'><a href='https://xiaoying-huang.github.io/Rock-Scissors-Paper-Game/'
+            target='_blank'>Rock
+            Scissors Paper</a>
+        </h4>
+        <p class='project-description'>A childhood game written in Javascript.</p>
+      </div>
+      <div class='portfolio_projects'>
+        <img src='./img/myStuff.png'>
+        <h4 class='project-title'>
+          <a href='http://xiaoyinghuang.pythonanywhere.com/' target='_blank'>
+            myStuff
+          </a>
+        </h4>
+        <p class='project-description'>A web application that helps users manage their home stock items by recording the
+          locations and stock info. With the search function, users could find the desired items easily.</p>
+      </div>
+    </div>
+
   </section>
-  
+
   <!-- About section -->
   <section id='about'>
     <h3>About Me</h3>
-    <p>I gained development skills via a variety of methods,including completion of skills bootcamp course and making use of online self-taught programmes. Having worked as an auditor for nearly five years, I have strengthened my risk-control, planning, coordination and
-    communication skills, which I believe will be of asset for my future career.</p>
+    <p>I gained development skills via a variety of methods,including completion of skills bootcamp course and making
+      use of online self-taught programmes. Having worked as an auditor for nearly five years, I have strengthened my
+      risk-control, planning, coordination and
+      communication skills, which I believe will be of asset for my future career.</p>
     <a>LinkedIn</a>
     <a>Github</a>
   </section>
-  
+
   <!-- Footer -->
   <footer>
     <small>&copy; Copyright 2022, Xiaoying Huang</small>
   </footer>
-<script src='./index.js'></script>
+  <script src='./index.js'></script>
 </body>
+
 </html>

@@ -110,7 +110,9 @@ h3{
 }
 
 /* Portfolio section setting */
-
+.projects-container{
+  display: flex;
+}
 
 /* About section setting */
 
